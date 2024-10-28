@@ -1,0 +1,18 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@layouts/*": ["src/layouts/*"]
+    },
+    "strict": false, // Disables all strict options
+    "noImplicitAny": false, // Allows implicit `any`
+    "strictNullChecks": false, // Disables strict null checks
+    "strictPropertyInitialization": false, // Disables strict property initialization
+    "noImplicitThis": false, // Allows implicit `any` for `this`
+    "alwaysStrict": false // Disables `"use strict"` directive
+  }
+}

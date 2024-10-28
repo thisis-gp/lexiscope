@@ -1,0 +1,12 @@
+# Node stuff
+node_modules
+package-lock.json 
+README.md
+
+.env
+ 
+# astro stuff
+.astro
+
+#code
+.vscode
